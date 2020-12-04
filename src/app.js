@@ -29,7 +29,7 @@ app.use(cors());
 //Objeto router (gerenciamento de rotas)
 //app.use(router);
 app.get('/', function(req, res) {
-	res.send('hello world');
+	res.send('<h1>teste</h1>');
 });
 
 /* https.createServer(httpsOptions, app).listen(process.env.PORT, process.env.HOST, function () {
@@ -37,5 +37,5 @@ app.get('/', function(req, res) {
 }); */
 
 app.listen(process.env.PORT, process.env.HOST, function () {
-	console.log('Login API listening at https://%s:%s/', process.env.HOST, process.env.PORT)
+	console.log('Login API listening at http://%s:%s/', process.env.HOST, process.env.PORT)
 })
