@@ -1,1 +1,1 @@
-# BeatyBusiness-LoginAPI
+# BeautyBusiness-LoginAPI
